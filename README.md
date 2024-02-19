@@ -4,9 +4,9 @@ O Clube da Matemática é um projeto de extensão do Instituto Federal do Sul de
 
 ## Funcionalidades
 
-- **Eventos:** Lista de eventos organizados pelo Clube da Matemática, com datas, descrições e detalhes.
+- **Eventos:** Lista de eventos que o Clube da Matemática articipou, com datas, descrições e detalhes.
 - **Professores:** Perfil dos professores envolvidos no projeto, com informações sobre suas áreas de atuação e experiências.
-- **Bolsistas:** Perfil dos bolsistas que participam do Clube da Matemática, destacando suas contribuições e atividades.
+- **Bolsistas:** Perfil dos bolsistas que participam do Clube.
 - **Videoaulas:** Acesso a videoaulas relacionadas ao projeto, disponíveis para visualização online.
 - **Formulário de Contato:** Formulário para contato direto com a equipe do Clube da Matemática, enviado diretamente para o e-mail institucional.
 
