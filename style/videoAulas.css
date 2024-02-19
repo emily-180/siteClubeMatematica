@@ -1,0 +1,44 @@
+.video-aulas {
+    padding: 20px 20px; 
+  }
+  
+  .video-card {
+    background-color: #ffffff; 
+    border-radius: 15px; 
+    padding: 20px; 
+    margin-top: 30px; 
+  }
+  
+  .video-card img {
+    border-radius: 15px; 
+  }
+  
+  .video-card h3 {
+    font-size: 1.5rem; 
+    margin-top: 20px; 
+    color:#000000;
+  }
+  
+  .video-card p {
+    font-size: 1rem; 
+    color: #000000; 
+  }
+  /* Estilos para dispositivos móveis */
+@media (max-width: 576px) {
+  .video-card h3 {
+    font-size: 1rem; 
+  }
+  p {
+    font-size: 0.8rem;
+  }
+}
+
+/* Estilos para tablets */
+@media (max-width: 768px) {
+  .video-card h3 {
+    font-size: 1.2rem; 
+  }
+  p {
+    font-size: 0.9rem;
+  }
+}

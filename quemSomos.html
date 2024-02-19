@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clube de Matemática</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="style/global.css" type="text/css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-WYBv5N8FvYBvX6PnH/Z6uTwm1Ueuwyve5e6xsx7SFuHhx2Sz/5Wn1S9hIrmX4/2H" crossorigin="anonymous">
+  
+</head>
+<body class="fonte-normal">
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand fonte-cursiva" href="index.html">
+        <img src="imagens/logo3.png" alt="Logo" class="logo-img"> 
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="eventos.html">Eventos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="videoAulas.html">Vídeoaulas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container text-center mt-5">
+    <h1 class="titulo-grande fonte-cursiva amarelo">Saiba mais...</h1>
+  </div>
+ 
+ <div class="container mt-5">
+    <h2 class="titulo-medio fonte-cursiva text-center">Professores que atuam ou já atuaram no clube</h2>
+    <div id="carouselProfessores" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+       
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselProfessores" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselProfessores" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+      <h2 class="titulo-medio fonte-cursiva text-center">Bolsistas que atuam ou já atuaram no projeto</h2>
+      <div id="bolsistasContainer"></div>
+  </div>
+
+  
+   
+<footer class="bg-dark py-4 fonte-cursiva branco">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <img src="imagens/logo2.png" alt="Logo do Clube" class="img-fluid">
+      </div>
+      <div class="col-md-3" >
+        <h5>Links Rápidos</h5>
+        <ul class="list-unstyled">
+          <li><a href="quemSomos.html" class="text-decoration-none branco">Quem Somos</a></li>
+          <li><a href="eventos.html" class="text-decoration-none branco">Eventos</a></li>
+          <li><a href="videoAulas.html" class="text-decoration-none branco">Vídeoaulas</a></li>
+          <li><a href="contato.html" class="text-decoration-none branco">Contato</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h5>Entre em Contato</h5>
+        <p>Endereço: Rod. Machado - Paraguaçu - Santo Antonio, Machado - MG, 37750-000</p>
+        <p>Laboratório de Matematica, Setor I</p>
+        <p>Email: clubematematicagape@gmail.com</p>
+      </div>
+      <div class="col-md-3 social-icons">
+        <h5>Redes Sociais</h5>
+        <a href="https://instagram.com/clubedamatematica.ifmch?igshid=MmVlMjlkMTBhMg=="><img src="imagens/instagram.png" alt="Instagram" class="img-fluid"></a>
+        <a href="https://www.youtube.com/@ClubedaMatematicaGAPE"><img src="imagens/youtube.png" alt="YouTube" class="img-fluid"></a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://apis.google.com/js/api.js"></script>
+<script src="scripts/saibamais.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-r0A87BlNHAfYXT1n8JvY/6Nozqlcs3q2xG8fKoIU4Mto2GZZeAguSKLrYs1BRwfo" crossorigin="anonymous"></script>
+</body>
+</html>
